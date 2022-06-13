@@ -100,4 +100,4 @@ void ForwardLeft(){
      digitalWrite(motor2PinB, LOW);
 
 }
-//우전진, 좌후진, 우후진 은 아직 만들지 못함. 그래서 좌 전진만 만들었다.
+
