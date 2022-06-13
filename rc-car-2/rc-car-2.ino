@@ -90,6 +90,14 @@ void ForwardLeft(){
      digitalWrite(motor2PinA, LOW);
      digitalWrite(motor2PinB, HIGH);
          
-    
+ void ForwardRight(){
+    // 우전진
+ analogWrite(enablelPin, 255);
+           analogWrite(enablerPin, 100);
+   digitalWrite(motor1PinA, HIGH);
+     digitalWrite(motor1PinB, LOW);
+     digitalWrite(motor2PinA, HIGH);
+     digitalWrite(motor2PinB, LOW);
+
 }
 //우전진, 좌후진, 우후진 은 아직 만들지 못함. 그래서 좌 전진만 만들었다.
