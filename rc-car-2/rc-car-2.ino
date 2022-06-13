@@ -86,7 +86,7 @@ void ForwardLeft(){
  analogWrite(enablelPin, 255);
            analogWrite(enablerPin, 100);
    digitalWrite(motor1PinA, LOW);
-     digitalWrite(motor1PinB, LOW);
+     digitalWrite(motor1PinB, HIGH);
      digitalWrite(motor2PinA, LOW);
      digitalWrite(motor2PinB, HIGH);
          
